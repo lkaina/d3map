@@ -1,21 +1,18 @@
 {
   "name": "d3map",
   "version": "0.0.0",
-  "homepage": "https://github.com/lkaina/d3map",
-  "authors": [
-    "Leighton Kaina <leighton.kaina@gmail.com>"
-  ],
-  "description": "basic d3 map",
-  "main": "index.html",
-  "license": "MIT",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
   "dependencies": {
-    "angular": "~1.2.26"
-  }
+    "angular": "~1.2.0",
+    "json3": "~3.3.1",
+    "es5-shim": "~3.1.0",
+    "bootstrap": "~3.2.0",
+    "angular-cookies": "~1.2.0",
+    "angular-sanitize": "~1.2.0",
+    "angular-animate": "~1.2.0"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.2.0",
+    "angular-scenario": "~1.2.0"
+  },
+  "appPath": "app"
 }
